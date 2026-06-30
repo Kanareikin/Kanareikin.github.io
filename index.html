@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kanareikin вЂ” DevOps & SRE</title>
+    <title>Kanareikin — DevOps & SRE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -38,7 +38,7 @@
             line-height: 1.6;
         }
 
-        /* в•ђв•ђв•ђ GRID BACKGROUND в•ђв•ђв•ђ */
+        /* ═══ GRID BACKGROUND ═══ */
         .grid-bg {
             position: fixed;
             inset: 0;
@@ -57,7 +57,7 @@
             background: radial-gradient(ellipse 80% 50% at 50% -20%, var(--accent-dim), transparent);
         }
 
-        /* в•ђв•ђв•ђ PARTICLES в•ђв•ђв•ђ */
+        /* ═══ PARTICLES ═══ */
         .particles {
             position: fixed;
             inset: 0;
@@ -82,7 +82,7 @@
             100% { opacity: 0; transform: translateY(-10vh) scale(1); }
         }
 
-        /* в•ђв•ђв•ђ NAV в•ђв•ђв•ђ */
+        /* ═══ NAV ═══ */
         nav {
             position: fixed;
             top: 0;
@@ -151,7 +151,7 @@
         .nav-links a:hover { color: var(--accent); }
         .nav-links a:hover::before { opacity: 1; }
 
-        /* в•ђв•ђв•ђ MAIN в•ђв•ђв•ђ */
+        /* ═══ MAIN ═══ */
         main { position: relative; z-index: 1; }
 
         section {
@@ -168,7 +168,7 @@
             margin: 0 auto;
         }
 
-        /* в•ђв•ђв•ђ HERO в•ђв•ђв•ђ */
+        /* ═══ HERO ═══ */
         #hero { min-height: 100vh; position: relative; }
 
         .hero-content { position: relative; }
@@ -333,7 +333,7 @@
         .terminal-body .highlight { color: var(--accent); }
         .terminal-body .string { color: var(--pink); }
 
-        /* в•ђв•ђв•ђ ABOUT в•ђв•ђв•ђ */
+        /* ═══ ABOUT ═══ */
         #about { background: var(--bg-secondary); }
 
         .section-label {
@@ -414,7 +414,7 @@
             margin-top: 0.3rem;
         }
 
-        /* в•ђв•ђв•ђ SKILLS в•ђв•ђв•ђ */
+        /* ═══ SKILLS ═══ */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -499,7 +499,7 @@
             color: var(--text-dim);
         }
 
-        /* в•ђв•ђв•ђ PROJECTS в•ђв•ђв•ђ */
+        /* ═══ PROJECTS ═══ */
         #projects { background: var(--bg-secondary); }
 
         .project-card {
@@ -572,7 +572,7 @@
 
         .project-link:hover { color: var(--accent); }
 
-        /* в•ђв•ђв•ђ CONTACT в•ђв•ђв•ђ */
+        /* ═══ CONTACT ═══ */
         .contact-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -651,7 +651,7 @@
             min-height: 250px;
         }
 
-        /* в•ђв•ђв•ђ FOOTER в•ђв•ђв•ђ */
+        /* ═══ FOOTER ═══ */
         footer {
             padding: 3rem 2rem;
             text-align: center;
@@ -668,7 +668,7 @@
 
         footer .heart { color: var(--pink); }
 
-        /* в•ђв•ђв•ђ SCROLL INDICATOR в•ђв•ђв•ђ */
+        /* ═══ SCROLL INDICATOR ═══ */
         .scroll-indicator {
             position: absolute;
             bottom: 2rem;
@@ -701,7 +701,7 @@
             50% { transform: translateX(-50%) translateY(10px); }
         }
 
-        /* в•ђв•ђв•ђ ANIMATIONS в•ђв•ђв•ђ */
+        /* ═══ ANIMATIONS ═══ */
         @keyframes fadeInUp {
             from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
@@ -723,7 +723,7 @@
             transform: translateY(0);
         }
 
-        /* в•ђв•ђв•ђ RESPONSIVE в•ђв•ђв•ђ */
+        /* ═══ RESPONSIVE ═══ */
         @media (max-width: 900px) {
             .hero-terminal { display: none; }
             .about-grid { grid-template-columns: 1fr; gap: 2rem; }
@@ -731,13 +731,13 @@
             .nav-links { display: none; }
         }
 
-        /* в•ђв•ђв•ђ SELECTION в•ђв•ђв•ђ */
+        /* ═══ SELECTION ═══ */
         ::selection {
             background: var(--accent);
             color: var(--bg-primary);
         }
 
-        /* в•ђв•ђв•ђ SCROLLBAR в•ђв•ђв•ђ */
+        /* ═══ SCROLLBAR ═══ */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: var(--bg-primary); }
         ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
@@ -770,11 +770,11 @@
                 <div class="hero-content">
                     <div class="hero-tag">
                         <span class="dot"></span>
-                        <span>РґРѕСЃС‚СѓРїРµРЅ РґР»СЏ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР°</span>
+                        <span>доступен для сотрудничества</span>
                     </div>
 
                     <h1 class="hero-title">
-                        <span class="line">РџСЂРёРІРµС‚, СЏ</span>
+                        <span class="line">Привет, я</span>
                         <span class="line accent">Evgenyi Kanareikin</span>
                         <span class="line outline">DevOps&nbsp;&&nbsp;SRE</span>
                     </h1>
@@ -784,8 +784,8 @@
                     </p>
 
                     <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">в†’ РњРѕРё РїСЂРѕРµРєС‚С‹</a>
-                        <a href="#contact" class="btn btn-ghost">РЎРІСЏР·Р°С‚СЊСЃСЏ</a>
+                        <a href="#projects" class="btn btn-primary">→ Мои проекты</a>
+                        <a href="#contact" class="btn btn-ghost">Связаться</a>
                     </div>
 
                     <!-- TERMINAL WIDGET -->
@@ -805,10 +805,10 @@
                             <div class="output">Automation <span class="highlight">first</span>.</div>
                             <br>
                             <div><span class="prompt">$</span> <span class="cmd">echo $STACK</span></div>
-                            <div class="output"><span class="string">"Linux В· Docker В· K8s В· Ansible"</span></div>
+                            <div class="output"><span class="string">"Linux · Docker · K8s · Ansible"</span></div>
                             <br>
                             <div><span class="prompt">$</span> <span class="cmd">systemctl status prod</span></div>
-                            <div class="output">в—Џ <span class="highlight">active (running)</span></div>
+                            <div class="output">● <span class="highlight">active (running)</span></div>
                         </div>
                     </div>
                 </div>
@@ -824,28 +824,28 @@
         <section id="about">
             <div class="container">
                 <div class="reveal">
-                    <div class="section-label">РћР±Рѕ РјРЅРµ</div>
-                    <h2 class="section-title">РЎС‚СЂРѕСЋ РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂСѓ,<br>РєРѕС‚РѕСЂР°СЏ <span style="color:var(--accent)">РЅРµ РїР°РґР°РµС‚</span></h2>
+                    <div class="section-label">Обо мне</div>
+                    <h2 class="section-title">Строю инфраструктуру,<br>которая <span style="color:var(--accent)">не падает</span></h2>
                 </div>
                 <div class="about-grid reveal">
                     <div class="about-text">
                         <p>
-                            DevOps / SRE РёРЅР¶РµРЅРµСЂ СЃ С„РѕРєСѓСЃРѕРј РЅР° Р°РІС‚РѕРјР°С‚РёР·Р°С†РёСЋ, РјРѕРЅРёС‚РѕСЂРёРЅРі Рё РЅР°РґС‘Р¶РЅРѕСЃС‚СЊ
-                            production-СЃРёСЃС‚РµРј. Р’РµСЂСЋ, С‡С‚Рѕ <span class="highlight-text">С…РѕСЂРѕС€Р°СЏ РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂР°</span> вЂ” СЌС‚Рѕ
-                            С‚Р°, Рѕ РєРѕС‚РѕСЂРѕР№ С‚С‹ РЅРµ Р·РЅР°РµС€СЊ, РїРѕС‚РѕРјСѓ С‡С‚Рѕ РѕРЅР° РїСЂРѕСЃС‚Рѕ СЂР°Р±РѕС‚Р°РµС‚.
+                            DevOps / SRE инженер с фокусом на автоматизацию, мониторинг и надёжность
+                            production-систем. Верю, что <span class="highlight-text">хорошая инфраструктура</span> — это
+                            та, о которой ты не знаешь, потому что она просто работает.
                         </p>
                         <p>
-                            РџРёС€Сѓ bash-СЃРєСЂРёРїС‚С‹, РЅР°СЃС‚СЂР°РёРІР°СЋ systemd-СЃРµСЂРІРёСЃС‹, СЂР°Р·РІРѕСЂР°С‡РёРІР°СЋ Docker-РєРѕРЅС‚РµР№РЅРµСЂС‹
-                            Рё СЃС‚СЂРѕСЋ РїР°Р№РїР»Р°Р№РЅС‹ CI/CD. РљР°Р¶РґС‹Р№ РґРµРЅСЊ СѓС‡СѓСЃСЊ С‡РµРјСѓ-С‚Рѕ РЅРѕРІРѕРјСѓ РІ РјРёСЂРµ Linux Рё РѕР±Р»Р°РєРѕРІ.
+                            Пишу bash-скрипты, настраиваю systemd-сервисы, разворачиваю Docker-контейнеры
+                            и строю пайплайны CI/CD. Каждый день учусь чему-то новому в мире Linux и облаков.
                         </p>
                         <p>
-                            Р¦РµР»СЊ вЂ” СЃРґРµР»Р°С‚СЊйѓЁзЅІ (deploy) СЃРєСѓС‡РЅС‹Рј, Р° РјРѕРЅРёС‚РѕСЂРёРЅРі вЂ” РёРЅС„РѕСЂРјР°С‚РёРІРЅС‹Рј.
+                            Цель — сделать部署 (deploy) скучным, а мониторинг — информативным.
                         </p>
                     </div>
                     <div class="about-stats">
                         <div class="stat-card">
                             <div class="stat-number" data-target="342">0</div>
-                            <div class="stat-label">РґРЅРµР№ Р°РїС‚Р°Р№РјР°</div>
+                            <div class="stat-label">дней аптайма</div>
                         </div>
                         <div class="stat-card">
                             <div class="stat-number" data-target="99">0</div>
@@ -853,7 +853,7 @@
                         </div>
                         <div class="stat-card">
                             <div class="stat-number" data-target="24">0</div>
-                            <div class="stat-label">/7 РјРѕРЅРёС‚РѕСЂРёРЅРі</div>
+                            <div class="stat-label">/7 мониторинг</div>
                         </div>
                         <div class="stat-card">
                             <div class="stat-number" data-target="0">0</div>
@@ -868,54 +868,54 @@
         <section id="skills">
             <div class="container">
                 <div class="reveal">
-                    <div class="section-label">РќР°РІС‹РєРё</div>
-                    <h2 class="section-title">РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёР№ СЃС‚РµРє</h2>
+                    <div class="section-label">Навыки</div>
+                    <h2 class="section-title">Технологический стек</h2>
                 </div>
                 <div class="skills-grid">
                     <div class="skill-card reveal">
-                        <div class="skill-icon">рџђ§</div>
+                        <div class="skill-icon">🐧</div>
                         <div class="skill-name">Linux & Shell</div>
-                        <div class="skill-desc">РђРґРјРёРЅРёСЃС‚СЂРёСЂРѕРІР°РЅРёРµ Linux-СЃРµСЂРІРёСЃРѕРІ, РЅР°РїРёСЃР°РЅРёРµ bash-СЃРєСЂРёРїС‚РѕРІ, РЅР°СЃС‚СЂРѕР№РєР° systemd</div>
+                        <div class="skill-desc">Администрирование Linux-сервисов, написание bash-скриптов, настройка systemd</div>
                         <div class="skill-tags">
                             <span>Bash</span><span>systemd</span><span>SSH</span><span>cron</span>
                         </div>
                     </div>
                     <div class="skill-card reveal">
-                        <div class="skill-icon">рџђі</div>
+                        <div class="skill-icon">🐳</div>
                         <div class="skill-name">Containers</div>
-                        <div class="skill-desc">РљРѕРЅС‚РµР№РЅРµСЂРёР·Р°С†РёСЏ РїСЂРёР»РѕР¶РµРЅРёР№, РѕСЂРєРµСЃС‚СЂР°С†РёСЏ Рё СѓРїСЂР°РІР»РµРЅРёРµ РєР»Р°СЃС‚РµСЂР°РјРё</div>
+                        <div class="skill-desc">Контейнеризация приложений, оркестрация и управление кластерами</div>
                         <div class="skill-tags">
                             <span>Docker</span><span>Kubernetes</span><span>Compose</span><span>Helm</span>
                         </div>
                     </div>
                     <div class="skill-card reveal">
-                        <div class="skill-icon">рџ”§</div>
+                        <div class="skill-icon">🔧</div>
                         <div class="skill-name">Automation</div>
-                        <div class="skill-desc">РђРІС‚РѕРјР°С‚РёР·Р°С†РёСЏ СЂР°Р·РІС‘СЂС‚С‹РІР°РЅРёСЏ Рё СѓРїСЂР°РІР»РµРЅРёСЏ РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂРѕР№</div>
+                        <div class="skill-desc">Автоматизация развёртывания и управления инфраструктурой</div>
                         <div class="skill-tags">
                             <span>Ansible</span><span>Terraform</span><span>CI/CD</span><span>GitHub Actions</span>
                         </div>
                     </div>
                     <div class="skill-card reveal">
-                        <div class="skill-icon">рџ“Љ</div>
+                        <div class="skill-icon">📊</div>
                         <div class="skill-name">Monitoring</div>
-                        <div class="skill-desc">РњРѕРЅРёС‚РѕСЂРёРЅРі, Р°Р»РµСЂС‚РёРЅРі Рё РІРёР·СѓР°Р»РёР·Р°С†РёСЏ РјРµС‚СЂРёРє production-СЃРёСЃС‚РµРј</div>
+                        <div class="skill-desc">Мониторинг, алертинг и визуализация метрик production-систем</div>
                         <div class="skill-tags">
                             <span>Prometheus</span><span>Grafana</span><span>Alertmanager</span><span>ELK</span>
                         </div>
                     </div>
                     <div class="skill-card reveal">
-                        <div class="skill-icon">рџЊђ</div>
+                        <div class="skill-icon">🌐</div>
                         <div class="skill-name">Web & Proxy</div>
-                        <div class="skill-desc">РќР°СЃС‚СЂРѕР№РєР° РІРµР±-СЃРµСЂРІРёСЃРѕРІ, reverse proxy Рё SSL/TLS</div>
+                        <div class="skill-desc">Настройка веб-сервисов, reverse proxy и SSL/TLS</div>
                         <div class="skill-tags">
                             <span>Nginx</span><span>Apache</span><span>SSL</span><span>DNS</span>
                         </div>
                     </div>
                     <div class="skill-card reveal">
-                        <div class="skill-icon">рџђЌ</div>
+                        <div class="skill-icon">🐍</div>
                         <div class="skill-name">Scripting</div>
-                        <div class="skill-desc">РќР°РїРёСЃР°РЅРёРµ СЃРєСЂРёРїС‚РѕРІ РґР»СЏ Р°РІС‚РѕРјР°С‚РёР·Р°С†РёРё СЂСѓС‚РёРЅРЅС‹С… Р·Р°РґР°С‡ Рё РїР°СЂСЃРёРЅРіР°</div>
+                        <div class="skill-desc">Написание скриптов для автоматизации рутинных задач и парсинга</div>
                         <div class="skill-tags">
                             <span>Python</span><span>Bash</span><span>cURL</span><span>jq</span>
                         </div>
@@ -928,8 +928,8 @@
         <section id="projects">
             <div class="container">
                 <div class="reveal">
-                    <div class="section-label">РџСЂРѕРµРєС‚С‹</div>
-                    <h2 class="section-title">РР·Р±СЂР°РЅРЅС‹Рµ СЂР°Р±РѕС‚С‹</h2>
+                    <div class="section-label">Проекты</div>
+                    <h2 class="section-title">Избранные работы</h2>
                 </div>
                 <div class="reveal">
                     <div class="project-card">
@@ -937,15 +937,15 @@
                         <div class="project-info">
                             <div class="project-name">MiMoCode Telegram Bridge</div>
                             <div class="project-desc">
-                                Telegram-Р±РѕС‚, СЃРІСЏР·С‹РІР°СЋС‰РёР№ Telegram СЃ MiMoCode CLI. РћС‚РїСЂР°РІР»СЏР№ Р·Р°РґР°С‡Рё С‡РµСЂРµР· Telegram,
-                                РїРѕР»СѓС‡Р°Р№ AI-РѕС‚РІРµС‚С‹. Р’СЃС‚СЂРѕРµРЅРЅР°СЏ РїР°РјСЏС‚СЊ РґРёР°Р»РѕРіРѕРІ СЃ РїРѕРёСЃРєРѕРј, РєРѕРЅС‚РµРєСЃС‚РѕРј Рё СЃС‚Р°С‚РёСЃС‚РёРєРѕР№.
-                                РђРІС‚РѕР·Р°РїСѓСЃРє РєР°Рє Windows Service.
+                                Telegram-бот, связывающий Telegram с MiMoCode CLI. Отправляй задачи через Telegram,
+                                получай AI-ответы. Встроенная память диалогов с поиском, контекстом и статистикой.
+                                Автозапуск как Windows Service.
                             </div>
                             <div class="project-stack">
                                 <span>Python</span><span>Telegram API</span><span>REST</span><span>Windows Service</span>
                             </div>
                             <a href="https://github.com/Kanareikin/mimocode-telegram-bridge" class="project-link" target="_blank">
-                                в†’ GitHub
+                                → GitHub
                             </a>
                         </div>
                     </div>
@@ -955,15 +955,15 @@
                         <div class="project-info">
                             <div class="project-name">Monitor Test Process</div>
                             <div class="project-desc">
-                                Bash-СЃРєСЂРёРїС‚ РјРѕРЅРёС‚РѕСЂРёРЅРіР° РїСЂРѕС†РµСЃСЃР° test СЃ РёРЅС‚РµРіСЂР°С†РёРµР№ РІ systemd.
-                                РђРІС‚РѕРјР°С‚РёС‡РµСЃРєРёР№ Р·Р°РїСѓСЃРє РїСЂРё СЃС‚Р°СЂС‚Рµ СЃРёСЃС‚РµРјС‹, РѕРїСЂРѕСЃ API РєР°Р¶РґСѓСЋ РјРёРЅСѓС‚Сѓ,
-                                Р»РѕРіРёСЂРѕРІР°РЅРёРµ РїРµСЂРµР·Р°РїСѓСЃРєРѕРІ Рё РїСЂРѕРІРµСЂРєР° РґРѕСЃС‚СѓРїРЅРѕСЃС‚Рё СЃРµСЂРІРµСЂР° РјРѕРЅРёС‚РѕСЂРёРЅРіР°.
+                                Bash-скрипт мониторинга процесса test с интеграцией в systemd.
+                                Автоматический запуск при старте системы, опрос API каждую минуту,
+                                логирование перезапусков и проверка доступности сервера мониторинга.
                             </div>
                             <div class="project-stack">
                                 <span>Bash</span><span>systemd</span><span>cURL</span><span>Linux</span>
                             </div>
                             <a href="https://github.com/Kanareikin/Effective-Mobile" class="project-link" target="_blank">
-                                в†’ GitHub
+                                → GitHub
                             </a>
                         </div>
                     </div>
@@ -973,48 +973,14 @@
                         <div class="project-info">
                             <div class="project-name">Hello World</div>
                             <div class="project-desc">
-                                РџРµСЂРІС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ вЂ” РЅР°С‡Р°Р»Рѕ РїСѓС‚Рё РІ РјРёСЂ СЂР°Р·СЂР°Р±РѕС‚РєРё.
-                                РўРѕС‡РєР° РѕС‚СЃС‡С‘С‚Р° РґР»СЏ РІСЃРµРіРѕ РґР°Р»СЊРЅРµР№С€РµРіРѕ.
+                                Первый репозиторий — начало пути в мир разработки.
+                                Точка отсчёта для всего дальнейшего.
                             </div>
                             <div class="project-stack">
                                 <span>Git</span><span>Markdown</span>
                             </div>
                             <a href="https://github.com/Kanareikin/Hello-World" class="project-link" target="_blank">
-                                в†’ GitHub
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-number">04</div>
-                        <div class="project-info">
-                            <div class="project-name">РџРѕРіРѕРґР° Telegram Р‘РѕС‚</div>
-                            <div class="project-desc">
-                                Р•Р¶РµРґРЅРµРІРЅС‹Р№ РїСЂРѕРіРЅРѕР· РїРѕРіРѕРґС‹ РІ Telegram РЅР° СЂСѓСЃСЃРєРѕРј СЏР·С‹РєРµ.
-                                РўРµРјРїРµСЂР°С‚СѓСЂР°, Р»СѓРЅР°, РІРѕСЃС…РѕРґ/Р·Р°РєР°С‚, РїРѕС‡Р°СЃРѕРІРѕР№ РїСЂРѕРіРЅРѕР·, 7 РґРЅРµР№.
-                            </div>
-                            <div class="project-stack">
-                                <span>Python</span><span>Telegram API</span><span>Open-Meteo</span>
-                            </div>
-                            <a href="https://github.com/Kanareikin/mimo-weather-bot" class="project-link" target="_blank">
-                                в†’ GitHub
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-number">05</div>
-                        <div class="project-info">
-                            <div class="project-name">Р’Р°РєР°РЅСЃРёРё Telegram Р‘РѕС‚</div>
-                            <div class="project-desc">
-                                Р•Р¶РµРґРЅРµРІРЅР°СЏ СЂР°СЃСЃС‹Р»РєР° РІР°РєР°РЅСЃРёР№ РёР· hh.ru РІ Telegram.
-                                РџР°СЂСЃРёРЅРі СЃР°Р№С‚Р°, С„РёР»СЊС‚СЂ РїРѕ РіРѕСЂРѕРґСѓ, РЅР°Р·РІР°РЅРёРµ, РєРѕРјРїР°РЅРёСЏ, Р·Р°СЂРїР»Р°С‚Р°.
-                            </div>
-                            <div class="project-stack">
-                                <span>Python</span><span>Telegram API</span><span>hh.ru</span>
-                            </div>
-                            <a href="https://github.com/Kanareikin/mimo-vacancy-bot" class="project-link" target="_blank">
-                                в†’ GitHub
+                                → GitHub
                             </a>
                         </div>
                     </div>
@@ -1026,19 +992,19 @@
         <section id="contact">
             <div class="container">
                 <div class="reveal">
-                    <div class="section-label">РљРѕРЅС‚Р°РєС‚С‹</div>
-                    <h2 class="section-title">РЎРІСЏР¶РёС‚РµСЃСЊ СЃРѕ РјРЅРѕР№</h2>
+                    <div class="section-label">Контакты</div>
+                    <h2 class="section-title">Свяжитесь со мной</h2>
                 </div>
                 <div class="contact-grid reveal">
                     <div class="contact-info">
-                        <h3>Р”Р°РІР°Р№С‚Рµ СЃРѕС‚СЂСѓРґРЅРёС‡Р°С‚СЊ</h3>
+                        <h3>Давайте сотрудничать</h3>
                         <p>
-                            РћС‚РєСЂС‹С‚ РґР»СЏ РїСЂРµРґР»РѕР¶РµРЅРёР№, СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° Рё РїСЂРѕСЃС‚Рѕ РѕР±С‰РµРЅРёСЏ
-                            Рѕ DevOps, Linux Рё Р°РІС‚РѕРјР°С‚РёР·Р°С†РёРё.
+                            Открыт для предложений, сотрудничества и просто общения
+                            о DevOps, Linux и автоматизации.
                         </p>
                         <div class="contact-links">
                             <a href="https://t.me/EvgenyiAdmin" class="contact-link" target="_blank">
-                                <div class="contact-link-icon">вњ€</div>
+                                <div class="contact-link-icon">✈</div>
                                 <div>
                                     <div class="contact-link-text">@EvgenyiAdmin</div>
                                     <div class="contact-link-label">Telegram</div>
@@ -1052,7 +1018,7 @@
                                 </div>
                             </a>
                             <a href="https://github.com/Kanareikin" class="contact-link" target="_blank">
-                                <div class="contact-link-icon">вЊҐ</div>
+                                <div class="contact-link-icon">⌥</div>
                                 <div>
                                     <div class="contact-link-text">Kanareikin</div>
                                     <div class="contact-link-label">GitHub</div>
@@ -1071,16 +1037,16 @@
                             <div><span class="prompt">$</span> <span class="cmd">cat contact.sh</span></div>
                             <br>
                             <div class="output"><span class="highlight">#!/bin/bash</span></div>
-                            <div class="output"><span class="cmd">echo</span> <span class="string">"РЎРїР°СЃРёР±Рѕ Р·Р° РІРёР·РёС‚!"</span></div>
+                            <div class="output"><span class="cmd">echo</span> <span class="string">"Спасибо за визит!"</span></div>
                             <br>
-                            <div class="output"><span class="cmd">echo</span> <span class="string">"РЇ РёС‰Сѓ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РІ:"</span></div>
-                            <div class="output">  в†’ DevOps / SRE</div>
-                            <div class="output">  в†’ Linux Administration</div>
-                            <div class="output">  в†’ Cloud Infrastructure</div>
-                            <div class="output">  в†’ CI/CD Automation</div>
+                            <div class="output"><span class="cmd">echo</span> <span class="string">"Я ищу возможности в:"</span></div>
+                            <div class="output">  → DevOps / SRE</div>
+                            <div class="output">  → Linux Administration</div>
+                            <div class="output">  → Cloud Infrastructure</div>
+                            <div class="output">  → CI/CD Automation</div>
                             <br>
                             <div><span class="prompt">$</span> <span class="cmd">echo $STATUS</span></div>
-                            <div class="output"><span class="highlight">"Р“РѕС‚РѕРІ Рє РЅРѕРІС‹Рј РІС‹Р·РѕРІР°Рј рџљЂ"</span></div>
+                            <div class="output"><span class="highlight">"Готов к новым вызовам 🚀"</span></div>
                             <br>
                             <div><span class="prompt">$</span> <span class="cursor" style="width:8px;height:1rem;background:var(--accent);display:inline-block;animation:blink 1s step-end infinite"></span></div>
                         </div>
@@ -1092,11 +1058,11 @@
     </main>
 
     <footer>
-        <p>Designed & Built by <span class="heart">в™Ґ</span> Kanareikin &nbsp;|&nbsp; <span style="color:var(--accent)">2025</span></p>
+        <p>Designed & Built by <span class="heart">♥</span> Kanareikin &nbsp;|&nbsp; <span style="color:var(--accent)">2025</span></p>
     </footer>
 
     <script>
-        // в•ђв•ђв•ђ PARTICLES в•ђв•ђв•ђ
+        // ═══ PARTICLES ═══
         (function() {
             const container = document.getElementById('particles');
             for (let i = 0; i < 30; i++) {
@@ -1110,17 +1076,17 @@
             }
         })();
 
-        // в•ђв•ђв•ђ NAV SCROLL в•ђв•ђв•ђ
+        // ═══ NAV SCROLL ═══
         window.addEventListener('scroll', () => {
             document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
         });
 
-        // в•ђв•ђв•ђ TYPED EFFECT в•ђв•ђв•ђ
+        // ═══ TYPED EFFECT ═══
         const phrases = [
-            'РђРІС‚РѕРјР°С‚РёР·РёСЂСѓСЋ РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂСѓ.',
-            'РњРѕРЅРёС‚РѕСЂСЋ, С‡С‚РѕР±С‹ С‚С‹ СЃРїР°Р» СЃРїРѕРєРѕР№РЅРѕ.',
-            'Linux вЂ” РјРѕР№ РІС‚РѕСЂРѕР№ СЏР·С‹Рє.',
-            'РљРѕРґ = РєРѕРЅС„РёРі = РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ.'
+            'Автоматизирую инфраструктуру.',
+            'Мониторю, чтобы ты спал спокойно.',
+            'Linux — мой второй язык.',
+            'Код = конфиг = документация.'
         ];
         let phraseIdx = 0, charIdx = 0, isDeleting = false;
         const typedEl = document.getElementById('typed');
@@ -1146,7 +1112,7 @@
         }
         typeLoop();
 
-        // в•ђв•ђв•ђ SCROLL REVEAL в•ђв•ђв•ђ
+        // ═══ SCROLL REVEAL ═══
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -1157,7 +1123,7 @@
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-        // в•ђв•ђв•ђ COUNTER ANIMATION в•ђв•ђв•ђ
+        // ═══ COUNTER ANIMATION ═══
         const counterObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -1183,4 +1149,3 @@
 
 </body>
 </html>
-
