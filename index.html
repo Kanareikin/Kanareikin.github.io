@@ -281,10 +281,10 @@
 
         .hero-terminal {
             position: absolute;
-            right: -6rem;
-            top: 40%;
+            right: -8rem;
+            top: 45%;
             transform: translateY(-50%);
-            width: 380px;
+            width: 350px;
             background: var(--bg-card);
             border: 1px solid var(--border);
             border-radius: 12px;
@@ -724,8 +724,11 @@
         }
 
         /* ═══ RESPONSIVE ═══ */
-        @media (max-width: 900px) {
+        @media (max-width: 1200px) {
             .hero-terminal { display: none; }
+        }
+
+        @media (max-width: 900px) {
             .about-grid { grid-template-columns: 1fr; gap: 2rem; }
             .contact-grid { grid-template-columns: 1fr; }
             .nav-links { display: none; }
